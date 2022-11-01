@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: task-remove-storagegrid.html 
+keywords: storagegrid, cluster, remove, delete, remove storagegrid, delete cluster, delete working environment, remove working environment 
+summary: Entfernen Sie eine StorageGRID-Arbeitsumgebung, wenn Sie sie nicht mehr über BlueXP verwalten möchten. 
+---
+= Entfernen Sie eine StorageGRID-Arbeitsumgebung
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Entfernen Sie eine StorageGRID-Arbeitsumgebung, wenn Sie sie nicht mehr über BlueXP verwalten möchten.
+
+Das Entfernen der Arbeitsumgebung hat keine Auswirkung auf das StorageGRID System. Sie können sie jederzeit über BlueXP wiederentdecken.
+
+.Schritte
+. Doppelklicken Sie auf dem Bildschirm auf den Namen der StorageGRID-Arbeitsumgebung.
+. Klicken Sie auf das Menüsymbol und wählen Sie *aus Arbeitsbereich entfernen*.
++
+image:screenshot-remove.png["Ein Screenshot der Option aus Arbeitsbereich entfernen, die im Menü oben rechts in der Arbeitsumgebung verfügbar ist."]
+
+. Klicken Sie zur Bestätigung auf *Entfernen*.
+

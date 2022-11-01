@@ -1,0 +1,43 @@
+---
+sidebar: sidebar 
+permalink: task-discover-storagegrid.html 
+keywords: storagegrid, cluster, discover, manage, discovering, discover storagegrid 
+summary: BlueXP kann die StorageGRID Systeme in Ihrer On-Premises-Umgebung entdecken. Wenn Sie BlueXP StorageGRID Cluster hinzufügen, erhalten Sie eine vollständige Ansicht der Daten in Ihrer Hybrid-Multi-Cloud. 
+---
+= StorageGRID Systeme erkennen
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+BlueXP kann die StorageGRID Systeme in Ihrer On-Premises-Umgebung entdecken. Beim Hinzufügen von StorageGRID Systemen zu BlueXP erhalten Sie eine vollständige Ansicht der Daten in Ihrer hybriden Multi-Cloud.
+
+.Was Sie und#8217;ll benötigen
+* Ein Connector, der bei einem Cloud-Provider oder vor Ort installiert wird, mit Netzwerkverbindung zum StorageGRID-System.
++
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["Erfahren Sie mehr über Anschlüsse und wie Sie einen Anschluss erstellen"^]
+
+* Der Domain-Name oder die IP-Adresse des Admin-Node.
+* Administratoranmeldeinformationen für den Admin-Node
+
+
+.Schritte
+. Wählen Sie im Navigationsmenü die Option *Storage > Canvas* aus.
+. Klicken Sie auf *Arbeitsumgebung hinzufügen* und wählen Sie *On-Premise*.
+. Wählen Sie *StorageGRID* und klicken Sie auf *Weiter*.
+. Wenn Sie dazu aufgefordert werden, erstellen Sie einen Konnektor.
++
+Weitere Informationen erhalten Sie über den obigen Link.
+
+. Geben Sie auf der Seite _StorageGRID Cluster Details_ den Domänennamen oder die IP-Adresse des Admin-Knotens, die Anmeldeinformationen für den Knoten ein, und klicken Sie dann auf *Hinzufügen*.
++
+image:screenshot-cluster-details.png["Ein Screenshot, der die Seite „StorageGRID-Cluster-Details“ zeigt, auf der Sie den Domain-Namen oder die IP-Adresse des Admin-Nodes und die Anmeldedaten eingeben."]
+
+
+
+BlueXP entdeckt das StorageGRID-System und fügt es als Arbeitsumgebung auf dem Canvas hinzu.
+
+image:screenshot-canvas.png["Ein Screenshot, der eine StorageGRID Arbeitsumgebung auf dem BlueXP Canvas zeigt."]

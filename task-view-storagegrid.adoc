@@ -1,0 +1,37 @@
+---
+sidebar: sidebar 
+permalink: task-view-storagegrid.html 
+keywords: storagegrid, cluster, view, alerts, nodes, tenants, capacity, used capacity, free capacity, system ID, domain, IP, object data used, object metadata used, cpu usage, quota utilization, quota 
+summary: Nachdem die StorageGRID Systeme ermittelt wurden, werden Details zur Kapazitätsverteilung und den zugehörigen Warnmeldungen, Nodes und Mandanten angezeigt. 
+---
+= Sehen Sie Ihre StorageGRID Systeme an
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+Nachdem die StorageGRID Systeme ermittelt wurden, werden Details zur Kapazitätsverteilung und den zugehörigen Warnmeldungen, Nodes und Mandanten angezeigt.
+
+.Schritte
+. Doppelklicken Sie auf dem Bildschirm auf den Namen der StorageGRID Arbeitsumgebung, die Sie anzeigen möchten.
+. Wählen Sie eine der Registerkarten aus, um weitere Details zu Ihrem StorageGRID System anzuzeigen:
++
+** *Übersicht*: Eine detaillierte Übersicht über die Kapazitätsverteilung (genutzte und freie Kapazität) des Systems, die Anzahl der Systemwarnungen, Knoten und Mandanten und mehr.
++
+image:screenshot-overview.png["Ein Screenshot der Registerkarte „Übersicht“ in einer StorageGRID Arbeitsumgebung."]
+
+** *Alerts*: Eine Zusammenfassung der Systemwarnungen, die aktive Alarme, aufgelöste Warnmeldungen und stummschalten.
+** *Nodes*: Details zum Admin-Node, API-Gateway-Node und Storage-Nodes. Dies umfasst Prozentsätze für verwendete Objektdaten, verwendete Objektmetadaten und CPU-Auslastung.
++
+image:screenshot-nodes.png["Ein Screenshot der Registerkarte Knoten in einer StorageGRID Arbeitsumgebung."]
+
+** *Mandanten*: Wichtige Details zu Mandanten, darunter verwendeter logischer Speicherplatz, Quotenauslastung, Kontingent und Objektanzahl.
++
+image:screenshot-tenants.png["Einen Screenshot der Registerkarte „Mandanten“ in einer StorageGRID Arbeitsumgebung."]
+
+
+
+

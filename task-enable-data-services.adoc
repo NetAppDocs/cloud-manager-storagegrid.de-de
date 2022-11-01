@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: task-enable-data-services.html 
+keywords: storagegrid, cloud sync, cloud backup, backup, back up data 
+summary: Nachdem Sie ein StorageGRID System in BlueXP entdeckt haben, können Sie die Datenservices von NetApp mit StorageGRID für Backups und die Datensynchronisierung nutzen. 
+---
+= Nutzen Sie NetApp Datenservices mit StorageGRID
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Nachdem Sie ein StorageGRID System in BlueXP entdeckt haben, können Sie die Datenservices von NetApp für Backups und die Datensynchronisierung nutzen.
+
+* Nutzen Sie *Cloud Backup*, um Daten von ONTAP On-Premises-Systemen in Objekt-Storage auf NetApp StorageGRID Systemen zu sichern.
++
+Zum Starten gehen Sie auf den Arbeitsleinwand und ziehen Sie eine on-premise ONTAP Arbeitsumgebung in Ihrer StorageGRID Arbeitsumgebung.
+
++
+https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-onprem-private-cloud.html["Weitere Informationen zum Backup von On-Premises-ONTAP-Daten in StorageGRID"^]
+
+* Verwenden Sie *Cloud Sync*, um Daten mit oder von einem StorageGRID-System zu synchronisieren.
++
+Um zu beginnen, gehen Sie auf den Bildschirm und ziehen Sie die Quelle Arbeitsumgebung auf die Ziel-Arbeitsumgebung. Als StorageGRID kann die Quelle oder das Ziel verwendet werden.
+
++
+https://docs.netapp.com/us-en/cloud-manager-sync/index.html["Weitere Informationen zu Cloud Sync"^]
+
+
